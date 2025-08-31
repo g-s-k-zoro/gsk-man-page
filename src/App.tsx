@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import _React, { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import GraphNavigation from './components/GraphNavigation';
 import Header from './components/Header';
@@ -40,7 +40,7 @@ function App() {
     };
   }, []);
 
-  const handleNodeHover = (node: GraphNode | null) => {
+  const handleNodeHover = (_node: GraphNode | null) => {
     // Just for potential future use or debugging
     // The tooltip is now handled within GraphNavigation component
   };
@@ -58,7 +58,7 @@ function App() {
           <Route path="/" element={
             <div className="h-[calc(100vh-80px)] relative overflow-hidden">
               <GraphNavigation
-                nodes={siteStructure.nodes}
+                nodes={siteStructure.nodes as unknown as GraphNode[]}
                 links={siteStructure.links}
                 onNodeHover={handleNodeHover}
                 onNodeClick={handleNodeClick}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, ExternalLink, ChevronDown, ChevronUp, Code, Trophy } from 'lucide-react';
+import { Github, ExternalLink, ChevronDown, ChevronUp, ChevronRight, Code, Trophy } from 'lucide-react';
 import { motion } from 'framer-motion';
 import resumeData from '../data/resume-data.json';
 

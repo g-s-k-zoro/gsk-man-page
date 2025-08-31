@@ -162,10 +162,9 @@ const GraphNavigation: React.FC<GraphNavigationProps> = ({
     });
 
     // Function to wrap text for long titles
-    function wrapText(text: d3.Selection<any, any, any, any>, width: number) {
+    function wrapText(text: d3.Selection<any, any, any, any>, _width: number) {
       text.each(function(d: any) {
         const text = d3.select(this);
-        const words = d.title.split(/\s+/);
         
         // Special handling for long titles
         if (d.id === 'why_not_started') {
@@ -199,7 +198,7 @@ const GraphNavigation: React.FC<GraphNavigationProps> = ({
     }
 
     // Add text labels with wrapping for long titles
-    const labels = nodeGroup.append('text')
+    nodeGroup.append('text')
       .attr('text-anchor', 'middle')
       .attr('dy', '.35em')
       .attr('fill', 'white')
@@ -211,7 +210,7 @@ const GraphNavigation: React.FC<GraphNavigationProps> = ({
 
     // Add hover and click interactions
     nodeGroup
-      .on('mouseenter', function(event, d: any) {
+      .on('mouseenter', function(_event, d: any) {
         // Add hover effects
         d3.select(this)
           .transition()
@@ -229,7 +228,7 @@ const GraphNavigation: React.FC<GraphNavigationProps> = ({
         
         onNodeHover(d);
       })
-      .on('mouseleave', function(event, d: any) {
+      .on('mouseleave', function(_event, _d: any) {
         // Remove hover effects
         d3.select(this)
           .transition()

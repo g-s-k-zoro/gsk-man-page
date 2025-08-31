@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Clock, GitBranch, AlertCircle, CheckCircle, Archive } from 'lucide-react';
 import { motion } from 'framer-motion';
 

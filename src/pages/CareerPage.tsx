@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, MapPin, Award, ChevronRight, Briefcase } from 'lucide-react';
+import { Calendar, MapPin, Award, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
 import resumeData from '../data/resume-data.json';
 

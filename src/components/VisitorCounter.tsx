@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Eye, Users } from 'lucide-react';
+import { Users } from 'lucide-react';
 
 const VisitorCounter: React.FC = () => {
   const [count, setCount] = useState<number | null>(null);

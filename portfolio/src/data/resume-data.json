@@ -1,0 +1,205 @@
+{
+  "personal": {
+    "name": "Ghanashyam S. Katti",
+    "email": "ghanashyam.s.katti@gmail.com",
+    "phone": "+91 9423004439",
+    "linkedin": "https://www.linkedin.com/in/ghanashyam-katti-25179717b",
+    "github": "https://www.github.com/g-s-k-zoro",
+    "title": "System Software Engineer",
+    "company": "NVIDIA",
+    "tagline": "Building secure platforms for tomorrow's computing",
+    "about": "Computer science engineer with a keen interest in mathematics, algorithms, and system-level programming. Best when collaborating with passionate people on challenging problems."
+  },
+  "career": [
+    {
+      "id": "nvidia",
+      "company": "NVIDIA",
+      "logo": "/nvidia-logo.svg",
+      "role": "System Software Engineer",
+      "period": "May 2022 - Present",
+      "location": "India",
+      "description": "Working in the Core Platform Security team for Tegra SoC as a system software engineer",
+      "technologies": ["C/C++", "Python", "Gerrit", "ARM"],
+      "achievements": [
+        "Developing secure boot solutions for Tegra platforms",
+        "Implementing platform security features at system level",
+        "Contributing to ARM-based embedded systems"
+      ]
+    },
+    {
+      "id": "cisco-swe2",
+      "company": "CISCO",
+      "logo": "/cisco-logo.svg",
+      "role": "Software Engineer II",
+      "period": "August 2020 - May 2022",
+      "location": "India",
+      "description": "Backend developer working on API Portal, a web application for API management",
+      "technologies": ["Spring Boot", "Java", "MongoDB", "Docker", "Angular"],
+      "achievements": [
+        "Designed and developed Auditing Framework",
+        "Developed API Access Management workflows",
+        "Built Credential Management modules",
+        "Received 'You Inspire' and 'Benefit Everyone' awards (4 total)",
+        "Cisco Certified Interviewer (Technical)"
+      ]
+    },
+    {
+      "id": "cisco-intern",
+      "company": "CISCO",
+      "logo": "/cisco-logo.svg",
+      "role": "Intern",
+      "period": "January 2020 - June 2020",
+      "location": "India",
+      "description": "Designed and implemented new architecture for cache refreshment of web pages for WEM platform",
+      "technologies": ["Java", "Kafka", "Filebeats", "Logstash", "Python"],
+      "achievements": [
+        "Replaced brittle code with tool-based architecture",
+        "Pipe-lined modification logs with relevant data extraction"
+      ]
+    },
+    {
+      "id": "weir",
+      "company": "WEIR EnSci",
+      "logo": "/weir-logo.svg",
+      "role": "Intern",
+      "period": "April 2019 - June 2019",
+      "location": "India",
+      "description": "Developed working prototype of Inertial Fan as PoC under Smart Factory initiative",
+      "technologies": ["PWM", "Digital Circuits"],
+      "achievements": [
+        "Won cash prize (20k) and 6-month paid internship at Tech Meraki hackathon"
+      ]
+    },
+    {
+      "id": "cppsecrets",
+      "company": "Cppsecrets.com",
+      "logo": "/cpp-logo.svg",
+      "role": "C++ Developer Intern",
+      "period": "February 2019 - May 2019",
+      "location": "Remote",
+      "description": "Contributed professional C++ implementations and technical articles",
+      "technologies": ["C++ 11/14/17", "Data Structures", "Algorithms", "STL"],
+      "achievements": [
+        "Organized workshop 'C++ Made Easier' as lead resource person at NIE"
+      ]
+    },
+    {
+      "id": "cair-drdo",
+      "company": "Centre for Artificial Intelligence & Robotics DRDO",
+      "logo": "/drdo-logo.svg",
+      "role": "Summer Intern",
+      "period": "June 2018 - July 2018",
+      "location": "Bengaluru",
+      "description": "Research project on Boolean Constraint Propagation and Rule based Systems",
+      "technologies": ["NipuNa", "C++", "Data Structures"],
+      "achievements": [
+        "Solved Relational Riddles through deductive reasoning",
+        "Gained insight into Pure Satisfiability"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "nie",
+      "institution": "The National Institute Of Engineering",
+      "degree": "Bachelor of Engineering in Computer Science",
+      "period": "August 2016 - September 2020",
+      "location": "Mysuru",
+      "cgpa": "9.72",
+      "achievements": [
+        "Gold medalist at National Science Congress over South Asia region (7 countries)",
+        "Top academic performer with 9.72 CGPA"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "gan-website",
+      "title": "GAN-Website-Generator",
+      "summary": "AI tool for UI/UX designers to generate website templates",
+      "description": "A tool which aids UI/UX designers. Using GAN, new images of websites as templates are generated shortening the time for conception of the web design. Final year project.",
+      "technologies": ["Python", "Generative Adversarial Network", "Data aggregation"],
+      "thumbnail": "/project-gan.jpg",
+      "repo_url": "https://github.com/g-s-k-zoro/gan-website-generator",
+      "demo_url": "",
+      "how_to_use": "1. Install dependencies with pip install -r requirements.txt\n2. Run the training script with python train.py\n3. Generate new designs with python generate.py"
+    },
+    {
+      "id": "video-summarizer",
+      "title": "Video Conference Summarizer",
+      "summary": "Automated tool for extractive summarization of video conferences",
+      "description": "A completely automated tool which performs extractive summarization on audio of Video conferences and broadcasts the summary to the intended recipient list; all at the click of a button.",
+      "technologies": ["Python", "Speech Recognition", "File Scraping", "SMTP"],
+      "thumbnail": "/project-summarizer.jpg",
+      "repo_url": "https://github.com/g-s-k-zoro/video-summarizer",
+      "demo_url": "",
+      "how_to_use": "1. Set up SMTP credentials in config.json\n2. Run the application with python main.py\n3. Upload video file or provide video URL\n4. Select recipients and click 'Summarize'",
+      "achievements": ["Won RedHat bit-by-bit hackathon"]
+    },
+    {
+      "id": "e-performance",
+      "title": "E-Performance Analyzer",
+      "summary": "Portal for assessing student potential based on holistic performance",
+      "description": "A DBMS course mini-project that provides a portal for students to assess overall potential based on academic and co-curricular performance and computes a metric True Potential.",
+      "technologies": ["Python", "SQLite3", "HTML", "CSS", "Flask"],
+      "thumbnail": "/project-analyzer.jpg",
+      "repo_url": "https://github.com/g-s-k-zoro/e-performance-analyzer",
+      "demo_url": "",
+      "how_to_use": "1. Set up database with python setup_db.py\n2. Run Flask server with python app.py\n3. Access portal at localhost:5000\n4. Enter academic and co-curricular data"
+    },
+    {
+      "id": "piezo-floor",
+      "title": "Self Sustainable Piezo Electric Dance Floor",
+      "summary": "Energy harvesting dance floor prototype",
+      "description": "Built a prototype of Self Sustainable Piezo Electric Dance Floor as part of the Inspire award initiative. The floor generates electricity from dance movements.",
+      "technologies": ["Piezoelectric sensors", "Energy harvesting", "Arduino", "Circuit design"],
+      "thumbnail": "/project-piezo.jpg",
+      "repo_url": "",
+      "demo_url": "",
+      "achievements": ["Recipient of Inspire award - Central Government award for top 0.5% students"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "'You Inspire' and 'Benefit Everyone' Awards",
+      "organization": "Cisco",
+      "year": "2021-2022",
+      "description": "4 awards in recognition of contributions to API portal and Access Management feature"
+    },
+    {
+      "title": "RedHat bit-by-bit Hackathon Winner",
+      "organization": "RedHat",
+      "year": "2020",
+      "description": "Won for developing Video Conference Summarizer prototype"
+    },
+    {
+      "title": "Tech Meraki Hackathon Winner",
+      "organization": "WEIR EnSci",
+      "year": "2019",
+      "description": "Won cash prize (20k) and 6-month paid internship"
+    },
+    {
+      "title": "Gold Medal - National Science Congress",
+      "organization": "Science Congress",
+      "year": "2015",
+      "description": "Gold medalist over South Asia region (7 countries)"
+    },
+    {
+      "title": "INMO Selection",
+      "organization": "HBCSE",
+      "year": "2015",
+      "description": "All India Rank 26 in Junior Mathematics Olympiad; Selected for Indian National Mathematical Olympiad camp"
+    },
+    {
+      "title": "Inspire Award",
+      "organization": "Government of India",
+      "year": "2014",
+      "description": "Central Government award with funding for top 0.5% students"
+    }
+  ],
+  "skills": {
+    "strong": ["C++", "Algorithms", "Data Structures", "Discrete Mathematics"],
+    "intermediate": ["C", "Python", "Java"],
+    "frameworks": ["Git/Github", "MySQL", "MongoDB", "Docker", "Flask", "OpenShift", "Kafka", "Filebeats", "Logstash", "Spring Boot", "Angular"]
+  }
+}

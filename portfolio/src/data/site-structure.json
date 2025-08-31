@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": "career",
+      "title": "Career",
+      "summary": "From intern to NVIDIA engineer",
+      "description": "My professional journey through various tech companies, building systems and solving complex problems",
+      "color": "#6ee7b7",
+      "size": "large",
+      "x": 400,
+      "y": 300
+    },
+    {
+      "id": "personal",
+      "title": "Personal",
+      "summary": "Beyond the code",
+      "description": "The person behind the keyboard - interests, hobbies, and what drives me",
+      "color": "#f6c85f",
+      "size": "medium",
+      "x": 600,
+      "y": 200
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "summary": "NIE Mysuru to lifelong learning",
+      "description": "Academic journey and the mentors who shaped my thinking",
+      "color": "#a78bfa",
+      "size": "medium",
+      "x": 200,
+      "y": 400
+    },
+    {
+      "id": "why_not_started",
+      "title": "Why haven't I started yet?",
+      "summary": "Procrastination meets honesty",
+      "description": "A humorous take on my biggest obstacles and how I'm working to overcome them",
+      "color": "#fb7185",
+      "size": "small",
+      "x": 350,
+      "y": 500
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "summary": "Ideas turned into code",
+      "description": "Personal and professional projects showcasing my technical skills and creativity",
+      "color": "#60a5fa",
+      "size": "large",
+      "x": 550,
+      "y": 400
+    },
+    {
+      "id": "ongoing",
+      "title": "Ongoing",
+      "summary": "Work in progress",
+      "description": "Current projects and initiatives I'm actively working on",
+      "color": "#34d399",
+      "size": "medium",
+      "x": 700,
+      "y": 350
+    },
+    {
+      "id": "waste_time",
+      "title": "It's better to waste time this way",
+      "summary": "Blogs, puzzles, and musings",
+      "description": "My thoughts on tech, life, and interesting puzzles to solve",
+      "color": "#8b5cf6",
+      "size": "medium",
+      "x": 450,
+      "y": 150
+    },
+    {
+      "id": "collaboration",
+      "title": "Collaboration",
+      "summary": "Let's build something together",
+      "description": "Open to interesting projects and passionate people. Reach out!",
+      "color": "#c084fc",
+      "size": "medium",
+      "x": 250,
+      "y": 250
+    }
+  ],
+  "links": [
+    { "source": "career", "target": "projects", "strength": 0.8 },
+    { "source": "career", "target": "education", "strength": 0.7 },
+    { "source": "career", "target": "personal", "strength": 0.6 },
+    
+    { "source": "projects", "target": "ongoing", "strength": 0.9 },
+    { "source": "projects", "target": "collaboration", "strength": 0.7 },
+    
+    { "source": "ongoing", "target": "personal", "strength": 0.6 },
+    { "source": "ongoing", "target": "waste_time", "strength": 0.7 },
+    
+    { "source": "personal", "target": "waste_time", "strength": 0.8 },
+    { "source": "personal", "target": "why_not_started", "strength": 0.8 },
+    
+    { "source": "waste_time", "target": "collaboration", "strength": 0.7 },
+    { "source": "waste_time", "target": "why_not_started", "strength": 0.6 },
+    
+    { "source": "collaboration", "target": "education", "strength": 0.7 },
+    { "source": "collaboration", "target": "why_not_started", "strength": 0.6 },
+    
+    { "source": "education", "target": "why_not_started", "strength": 0.7 },
+    { "source": "education", "target": "projects", "strength": 0.6 }
+  ]
+}
